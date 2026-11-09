@@ -1,6 +1,6 @@
 # SONNY Security Toolkit
 
-**Developer: Sonny** • Version 1.0.0 • Python 3.10+ • Optional Lua 5.3/5.4 or LuaJIT
+**Developer:** Sonny - Version 1.0.0 - Python 3.10+ - Optional Lua 5.3/5.4 or LuaJIT
 
 A modular, defensive cybersecurity CLI with an ASCII banner, automatic terminal colors, JSON reports, and customizable Lua header policies. Standard-library-only Python runtime. No exploitation, credential attacks, or bulk scanning.
 
@@ -10,7 +10,6 @@ A modular, defensive cybersecurity CLI with an ASCII banner, automatic terminal 
 sonny-security/
 ├── pyproject.toml
 ├── README.md
-├── .gitignore
 ├── sonny_security/
 │   ├── __init__.py
 │   ├── __main__.py
@@ -25,9 +24,7 @@ sonny-security/
 │       ├── integrity.py
 │       └── permissions.py
 ├── lua/
-│   └── header_policy.lua
-└── tests/
-    └── test_toolkit.py
+ └── header_policy.lua
 ```
 
 ## Run
