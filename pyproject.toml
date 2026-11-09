@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sonny-security"
+version = "1.0.0"
+description = "Defensive cybersecurity CLI with Lua policy support"
+authors = [{name = "Sonny"}]
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sonny = "sonny_security.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["sonny_security*"]
